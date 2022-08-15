@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import LeftNavigationSideBar from "./SideBarCanvasHeader/LeftNavigationSideBar";
+import LeftCard from "./Components/CardsFirstRow/LeftCard";
+import NavHeaderMain from "./Components/NavHeader/NavHeaderMain";
+// import CollapsibleExample from "./NavHeader/CollapsibleExample";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div>
+    <NavHeaderMain/>
+    <LeftCard/>
+    {/* <CollapsibleExample/> */}
+    {/* <LeftNavigationSideBar/> */}
+
     </div>
   );
 }
