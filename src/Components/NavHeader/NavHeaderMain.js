@@ -30,7 +30,8 @@ function NavHeaderMain() {
 
     return (
         <Navbar bg="white" style={{
-            paddingTop : '0%'
+            paddingTop : '0%',
+            width: '100%'
         }}>
             <Container fluid  className='shadow-lg mx-0 mb-3 bg-white rounded'>
                 {/* <CollapsibleExample/> */}

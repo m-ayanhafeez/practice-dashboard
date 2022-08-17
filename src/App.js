@@ -1,14 +1,14 @@
-// import LeftNavigationSideBar from "./SideBarCanvasHeader/LeftNavigationSideBar";
-import LeftCard from "./Components/CardsFirstRow/LeftCard";
+import CardFirstRow from "./Components/CardsFirstRow/CardFirstRow";
 import NavHeaderMain from "./Components/NavHeader/NavHeaderMain";
+import MainSecondRow from "./Components/SecondRowCard/MainSecondRow";
 // import CollapsibleExample from "./NavHeader/CollapsibleExample";
 function App() {
   return (
    <div>
     <NavHeaderMain/>
-    <LeftCard/>
-    {/* <CollapsibleExample/> */}
-    {/* <LeftNavigationSideBar/> */}
+   <CardFirstRow/>
+   <MainSecondRow/>
+   
 
     </div>
   );

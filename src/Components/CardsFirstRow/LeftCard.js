@@ -5,20 +5,31 @@ import Container from "react-bootstrap/Container";
 
 function LeftCard(){
     return (  
-        <Container >
+        <Container className="col-12 col-md-6 col-xl-4  ">
             
-    <div className= 'col-12 col-md-6 col-xl-4 shadow-lg mx-0 mb-3 bg-white rounded'>
+    <div className= 'h-100 shadow-lg mx-0 mb-3 bg-white rounded card-congratulations-medal card'>
         
-            <Card className='card-congratulations-medal card'>
+            <Card className='h-100'
+            style={{
+                border: 'none'
+            }}>
                 
-                <Card.Body className='card-body d-flex justify-content-between'>
+                <Card.Body className='h-100 card-body d-flex justify-content-between'
+                 style={{
+                    border: 'none'
+                }}>
                 <div>
                     <h5>Congratulations 🎉 John!</h5>
                     <p className='font-small-3 card-text'>You have won gold medal</p>
                     <h3 className='mb-75 mt-2 pt-50'>
-                    <a href="/">$48.9k</a>
+                    <a href="/"
+                    style={{
+                        color: '#7367F0'
+                    }}>$48.9k</a>
                     </h3>
-                    <Button className='btn btn-primary'>View Sales</Button>    
+                    <Button style={{
+                        backgroundColor: '#7367F0'
+                    }}>View Sales</Button>    
                 </div>
                 <div>
                 <Image className='mx-2 my-0'
