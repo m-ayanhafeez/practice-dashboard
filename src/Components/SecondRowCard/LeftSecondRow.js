@@ -1,4 +1,5 @@
 import  Card  from "react-bootstrap/Card";
+
 // import Image from "react-bootstrap/Image";
 
 function LeftSecondRow(){
@@ -9,7 +10,10 @@ function LeftSecondRow(){
                <h2 className="fw-bolder mb-1">2,76K</h2>
             </Card.Header>
             <Card.Body>
-                
+                <div>
+                   Hello 
+                   
+                </div>
             </Card.Body>
         </Card>
     );
